@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
