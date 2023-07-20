@@ -10,7 +10,9 @@ const ProjectBox = ({ item }: { item: GridItemInterface }) => {
       <Icon type={item.icon ?? ""} color={item.color} />
 
       {/* Title */}
-      <div className="text-lg font-semibold w-full">{item.title}</div>
+      <div className=" text-base @md:text-lg  font-semibold w-full">
+        {item.title}
+      </div>
       {/* Stars */}
       <div className="flex items-center gap-1">
         <span className="mt-[1px]">{item.stars}</span>

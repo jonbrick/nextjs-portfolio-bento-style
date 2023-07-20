@@ -8,7 +8,9 @@ const MentorshipBox = ({ item }: { item: GridItemInterface }) => {
       {/* Icon */}
       <Icon type={item.icon ?? ""} color={item.color} />
       {/* Title */}
-      <div className="text-lg font-semibold w-full ">{item.title}</div>
+      <div className="w-full text-base @md:text-lg font-semibold">
+        {item.title}
+      </div>
       {/* Container */}
       <div>
         {/* Top Container */}
